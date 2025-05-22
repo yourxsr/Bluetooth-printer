@@ -1,0 +1,15 @@
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/timers.c
+printer_0511\timers.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+printer_0511\timers.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+printer_0511\timers.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+printer_0511\timers.o: ../Core/Inc/FreeRTOSConfig.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+printer_0511\timers.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h

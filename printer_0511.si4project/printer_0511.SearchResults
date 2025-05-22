@@ -1,0 +1,16 @@
+---- HAL_UART_RxCpltCallback Matches (15 in 2 files) ----
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 163 :        (+) At reception end of transfer HAL_UART_RxCpltCallback is executed and user can
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 164 :             add his own code by customization of function pointer HAL_UART_RxCpltCallback
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 179 :        (+) At reception end of transfer HAL_UART_RxCpltCallback is executed and user can
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 180 :             add his own code by customization of function pointer HAL_UART_RxCpltCallback
+HAL_UART_UnRegisterCallback in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :         huart->RxCpltCallback = HAL_UART_RxCpltCallback;                       /* Legacy weak RxCpltCallback            */
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 1065 :            The HAL_UART_TxCpltCallback(), HAL_UART_RxCpltCallback() user callbacks
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 1089 :         (+) HAL_UART_RxCpltCallback()
+HAL_UART_DMAStop in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :      to call the HAL UART API under callbacks HAL_UART_TxCpltCallback() / HAL_UART_RxCpltCallback():
+HAL_UART_DMAStop in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :      and the correspond call back is executed HAL_UART_TxCpltCallback() / HAL_UART_RxCpltCallback()
+stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) line 2619 : __weak void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+HAL_UART_RxCpltCallback in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :            the HAL_UART_RxCpltCallback could be implemented in the user file
+UART_InitCallbacksToDefault in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :   huart->RxCpltCallback            = HAL_UART_RxCpltCallback;            /* Legacy weak RxCpltCallback            */
+UART_DMAReceiveCplt in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :     HAL_UART_RxCpltCallback(huart);
+UART_Receive_IT in stm32f1xx_hal_uart.c (Drivers\STM32F1xx_HAL_Driver\Src) :         HAL_UART_RxCpltCallback(huart);
+stm32f1xx_hal_uart.h (Drivers\STM32F1xx_HAL_Driver\Inc) line 777 : void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart);
